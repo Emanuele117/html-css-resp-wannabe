@@ -9,7 +9,7 @@
 
 #lezioni .row>.left, #lezioni .row>.right {
   width: 50%;
-  /* float: left; */
+  float: left;
 }
 
 #lezioni .row img {
@@ -20,10 +20,14 @@
 }
 
 @media screen and (max-width: 420px) {
+  #lezioni.container {
+    background-color: yellow;
+  }
   .row {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+    width: 100%;
+  }
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
   }
 }
 
@@ -34,7 +38,7 @@
 /* BLOCCO STEPS */
 
 #steps .row>.left, #steps .row>.central, #steps .row>.right {
-  /* float: left; */
+  float: left;
   width: 33%;
 }
 
