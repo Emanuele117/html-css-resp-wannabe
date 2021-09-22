@@ -25,9 +25,20 @@
   }
   .row {
     width: 100%;
+    display: inline-block;
+    float: none;
   }
   #lezioni .row>.left, #lezioni .row>.right {
     width: 100%;
+  }
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    width: 100%;
+  }
+  #steps.container.grey {
+    width: 100%;
+  }
+  #why.container.grey {
+    background-color: yellow;
   }
 }
 
